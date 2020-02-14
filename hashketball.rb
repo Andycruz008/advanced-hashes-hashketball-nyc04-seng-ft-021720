@@ -1,5 +1,7 @@
 require 'pry'
-{
+
+def game_hash
+  {
     away: { team_name: 'Charlotte Hornets',
             colors: %w[Turquoise Purple],
             players: [
@@ -185,11 +187,6 @@ def big_shoe_rebounds
   end
 
   num_rebounds
-
-  
-  
-  
-  
 end
 
 
